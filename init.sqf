@@ -34,6 +34,4 @@ null = [] execVM "scripts\vaarsenal.sqf";
 //-------------------------------------------------- Headless Client
 
 
-// ich bin eine änderung in der debveloper branch
-
-// ich bin nopch eine änderung im developer branch
+//das habe ich gelöscht

@@ -33,4 +33,3 @@ null = [] execVM "scripts\vaarsenal.sqf";
 
 //-------------------------------------------------- Headless Client
 
-// ich bin ein git test

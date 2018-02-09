@@ -1,0 +1,109 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Changelog oben Anfügen
+26.01.2018 - Max
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Altes Arsenal in VAserver.sqf entfernt, da nun ACE-Arsenal über vaarsenal.sqf geladen wird.
+- Main-Mission regionSW -> "Take" in "Nehmen Sie %s ein!" übersetzt.
+- Übersetzung description.ext -> SideMission/MainMission & CO
+- TFAR Automatischer Move in Channel hinzugefügt. Channel muss: Public Funk heißen
+- Türen des Lagers sind nun nicht mehr verschlossen
+- Mapanpassun: Deutsche Fahne hinzugefügt
+- Willkommensnachricht abgeändert
+- Bei OPZ falsches Arsenal korrigiert
+- Heliplatz Apache größer gemacht
+- Arsenal auf Flugzeugträger installiert
+
+
+
+
+
+bis zum 26.01.2018 - Max
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Gamemode auf Mods angepasst -> Fahrzeugtypen ersetzt (nicht die Init bearbeitet)
+- Kisten bei Chinook Inhalt entfernt
+- Arsenal durch ACE-Arsenal ausgetauscht -> Titan Werfer nicht mehr Bestandteil des Arsenalds
+- KI an Tower eingesetzt, Tower als OPZ markiert, KI salutiert wenn Spieler vorbeiläuft
+- KI an die Schranken plaziert, salutiert wenn jemand in Auslöser fährt/geht
+- Alle Gruppen aufgelöst, eine große Schützen-Gruppe, Sani, Pioniere, Piloten, CAS, UAV, Sniper-Truppen
+- Alle Uniformen auf Bundeswehr-Uniformen angepasst
+- Flugzeugträger ist Marinebasis mit Marine-Helikoptern und Jets
+- Ohrstöpsel-Script entfernt, da ACE nun integriert
+- Script Targetanzeige linksseitig entladen (Crew)
+- Restrictions entfernt da team-zuweisung der items nicht mehr vertretbar.
+
+
+10.10.2017 - Chaser
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Helikopter "schwarz Färbung" gefixt
+- Xeno Taru Pod Script hinzugefügt
+- UAV Slots auf Fluggeräte angepasst, Waffensysteme entfernt 
+- Bugfixes
+- Sidemissen "HQ FIA", script Fehler gefixt
+- Mohawk Hubschrauber aufgeschlossen
+- Arsenal zu Mun LKW hinzugefügt
+- VAS entfernt aus Objekten
+- Warnung für schießen in der Basis übersetzt
+- MHQ schwarz gefärbt zur besseren Erkennung
+- Hubschrauber im UAV Bereich sichtbar gemacht
+
+06.10.2017 - Seko
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Kartenmarkierungen umbenannt
+- Helikopter Taru hinzugefügt "nach dem Respawn erscheint er nicht mehr in Schwarz"
+- Script für die Aufnahmen der Tarucontainer muss noch erstellt werden
+- UAV Slots funktionieren aber der UAV Operator kann auch die Verteitigungs 
+Geschütze der Base und USS Freedom kontrolieren
+
+02.10.2017 - Chaser
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Vehicle Respawn auf USS Freedom gefixt
+- Piloten korrekt benannt
+- B_Fighter_Pilot_F als Pilot hinzugefügt (Config)
+- Anpassung der Dialoge begonnen: "M" --> Regeln usw
+
+29.09.2017 - Seko
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Orca an der Baser " Das Problem wurde mit dem Respawn gelöst "
+- Namen den CAS Einheiten wurden nochmal angepasst.
+PS. ja wir können ja noch reden wg den Problemen.
+
+29.09.2017 - Chaser
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Schranken Basiseingang hinzugefügt inkl Funktion
+- Pretorian auf USS Freedom mit Munition ausgestattet
+HINWEIS: den Rest muss ich mir genauer anschauen.
+
+
+29.09.2017 - Seko
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Namen der Einheiten angepasst
+- Base erweiterung und richten einzelne Teile
+- CAS -Piloten wurde erstellt (first-Login Funktioniert) Respawn punkt muss festgelegt werden.
+- ATT Respawn Probleme bei Cas Helikopter auf dem Flugzeugträger " Sie fallen alle von der Luft herunter"
+- ATT Jets Respawnen nicht !!!!
+- ATT Respawn Problem bei Orca "Er Explodiert nach dem Respawn, als ob ein Objekt ihn zerstören würde.
+- ATT Flugzeugträger wird immer mit Bomben angegriffen, ohne das Feinde in der nähe sind. Einschläge deuten auf 
+  Artellerie beschuss. 
+
+28.09.2017 - Chaser
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Offizier Crossroad wieder eingebunden, da Fehlermeldung
+- Base Denfense hat jetzt unbegrenzt Munition, siehe Init
+- Vehicle Service Base mit Logo ausgestattet
+- Safezone Marker verschoben auf Spawnbereich
+
+28.09.2017 - Seko
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- Base neu Aufgebaut 
+- Keine Neuen Einheiten angelegt 
+- Neue Gegenstände 
+  H-Barrieren 
+- Anti Air Geschütze
+- Flugzeugträger 
+- Neue Flugzeuge aber ohne Synchronisation
+- Respawn Punkte für Fahrzeuge und Einheiten neu eingestellt bzw verschoben
+- Belohungs Respawnpunkte verschoben ( Muss aber noch geklärt werden) welche für Fahrzeuge sind und Welche für Helis
+

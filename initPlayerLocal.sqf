@@ -17,6 +17,10 @@ enableSentences FALSE;
 enableSaving [FALSE,FALSE];
 player enableFatigue FALSE;
 
+//Arsenal
+_handle = execVM "scripts\vaarsenal_init.sqf";
+waitUntil {isNull _handle };
+
 //------------------------------------------------ Handle parameters
 
 for [ {_i = 0}, {_i < count(paramsArray)}, {_i = _i + 1} ] do {
@@ -31,6 +35,7 @@ for [ {_i = 0}, {_i < count(paramsArray)}, {_i = _i + 1} ] do {
 //------------------- client executions
 
 ["InitializePlayer", [player]] call BIS_fnc_dynamicGroups; 						// Initializes the player/client side Dynamic Groups framework
+_null = [] execVM 'scripts\group_manager.sqf';									// group manager
 _null = [] execVM "scripts\restrictions.sqf"; 									// gear restrictions and safezone
 _null = [] execVM "scripts\pilotCheck.sqf"; 									// pilots only
 _null = [] execVM "scripts\jump.sqf";											// jump action
@@ -99,8 +104,6 @@ enableEngineArtillery false;
 if (player isKindOf "B_support_Mort_f") then {
 	enableEngineArtillery true;
 };
-//Earplugs
-//execVM "scripts\NRE_earplugs.sqf";
 
 //UAV control
 _uavcontrolers = ["B_soldier_UAV_F","B_recon_JTAC_F","B_Protagonist_VR_F"];
@@ -109,6 +112,7 @@ if (typeOf player in _uavcontrolers) then
 	[] execVM "scripts\uav.sqf";
 };
 
+execVM "scripts\group_manager.sqf";
 
 /*
 _infoArray = squadParams player;    

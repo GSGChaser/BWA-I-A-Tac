@@ -27,8 +27,9 @@ call compileFinal preprocessFileLineNumbers "Script_XENO_Taru_Pod\XENO_Taru_Pod_
 //Wetter
 //execVM "scripts\misc\randomWeather2.sqf";
 
-//Arsenal
-null = [] execVM "scripts\vaarsenal.sqf";
+
+
+
 
 
 //-------------------------------------------------- Headless Client

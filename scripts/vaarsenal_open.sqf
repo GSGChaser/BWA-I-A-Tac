@@ -1,0 +1,1 @@
+[global_arsenal, player] call ace_arsenal_fnc_openBox;

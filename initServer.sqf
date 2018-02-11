@@ -33,6 +33,7 @@ _null = [] execVM "scripts\eos\OpenMe.sqf";																// EOS (urban mission
 _null = [] execVM "scripts\misc\airbaseDefense.sqf";													// Airbase air defense
 _null = [] execVM "scripts\misc\cleanup.sqf";															// cleanup
 _null = [] execVM "scripts\misc\islandConfig.sqf";														// prep the island for mission
+
 if (PARAMS_EasterEggs == 1) then {_null = [] execVM "scripts\easterEggs.sqf";};							// Spawn easter eggs around the island
 allCurators = allCurators;
 enableEnvironment FALSE;

@@ -3,7 +3,7 @@
 author = Rarek, AhoyWorld, Quiksilver, BWA;					// Visible when loading mission
 onLoadName = "BWA Invade & Annex 1.0";						// Visible when loading mission
 OnLoadMission = "Willkommen auf dem taktischen Server des BWA. #1 - Invade and Annex. TeamSpeak: ts.bw-armaclan.de";
-loadScreen = "media\images\ia_bwa.jpg";				// Visible when loading mission
+loadScreen = "media\images\ia_bwa.jpg";					// Visible when loading mission
 overviewPicture = "media\images\ia_bwa.jpg";			// Visible when selecting mission	
 
 onLoadIntro = "";										// Displays a message while the intro is loading.
@@ -25,7 +25,8 @@ onPauseScript = "scripts\onPause.sqf";
 
 //------------------------- Misc
 
-disableChannels[] = {0,6};								// 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System. Admin/server/BattlEye can still use Global. 
+disableChannels[]={{0,true,true},{1,false,true},{2,true,true},{3,false,true},{4,false,true},{5,true,true},{6,true,true}};		// 0 = Global, 1 = Side, 2 = Command, 3 = Group, 4 = Vehicle, 5 = Direct, 6 = System. Admin/server/BattlEye can still use Global. 
+
 disabledAI = 1;											// No AI in playable units
 aiKills = 0; 											// disable scorelist for AI players
 enableItemsDropping = 0; 								// disabled with 0

@@ -8,7 +8,7 @@ class EditorData
 	toggles=545;
 	class ItemIDProvider
 	{
-		nextID=2892;
+		nextID=2893;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14935.553,100.63747,16661.803};
-		dir[]={-0.89244556,-0.31533751,-0.32271937};
-		up[]={-0.29656011,0.94897193,-0.10724019};
-		aside[]={-0.34006777,1.6961712e-007,0.94041979};
+		pos[]={14684.881,46.129375,16713.916};
+		dir[]={-0.60338503,-0.52524638,0.60020292};
+		up[]={-0.37241277,0.85091841,0.37045103};
+		aside[]={0.70530778,1.5148544e-006,0.70903623};
 	};
 };
 binarizationWanted=0;
@@ -808,7 +808,7 @@ class CustomAttributes
 							"SCALAR"
 						};
 					};
-					value=1;
+					value=0;
 				};
 			};
 		};
@@ -17907,7 +17907,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{0 = [this,180,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;}";
+				init="call{veh = [this, 10, 120] execVM ""scripts\vehicle.sqf"";}";
 				name="Quad_2";
 			};
 			id=572;
@@ -17968,7 +17968,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{0 = [this,180,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;}";
+				init="call{veh = [this, 10, 120] execVM ""scripts\vehicle.sqf"";}";
 				name="Quad_6";
 			};
 			id=573;
@@ -18193,7 +18193,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="call{0 = [this,300,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;}";
+				init="call{veh = [this, 300, 480] execVM ""scripts\vehicle.sqf"";}";
 				name="GH_1";
 			};
 			id=581;
@@ -46742,7 +46742,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14263.799,19.368093,16300.06};
+						position[]={14255.885,19.34646,16316.285};
 						angles[]={0.0012915437,2.6878071,0};
 					};
 					side="West";
@@ -46760,7 +46760,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14263.799,19.368093,16300.06};
+						position[]={14255.885,19.34646,16316.285};
 						angles[]={0.0012915437,2.6878071,0};
 					};
 					side="West";
@@ -46817,7 +46817,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14263.799,20.903049,16299.979};
+				position[]={14255.885,20.881416,16316.205};
 				angles[]={0.0012915437,2.6878071,0};
 			};
 			side="West";
@@ -54020,7 +54020,7 @@ class Mission
 				skill=0.60000002;
 				ammo=0.66858453;
 				lock="UNLOCKED";
-				init="0 = [this,300,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;";
+				init="call{veh = [this, 300, 480] execVM ""scripts\vehicle.sqf"";}";
 				name="CH47";
 			};
 			id=2284;
@@ -55483,6 +55483,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{veh = [this, 10, 120] execVM ""scripts\vehicle.sqf"";}";
 			};
 			id=2321;
 			type="rhsusf_m1025_d";
@@ -55578,6 +55579,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				init="call{veh = [this, 10] execVM ""scripts\vehicle.sqf"";}";
 			};
 			id=2324;
 			type="B_Truck_01_medical_F";
@@ -56766,7 +56768,7 @@ class Mission
 			class Attributes
 			{
 				skill=0.60000002;
-				init="call{0 = [this,180,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;}";
+				init="call{veh = [this, 10, 120] execVM ""scripts\vehicle.sqf"";}";
 				name="Quad_4";
 			};
 			id=2336;
@@ -56828,7 +56830,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="call{0 = [this,180,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;}";
+				init="call{veh = [this, 10, 120] execVM ""scripts\vehicle.sqf"";}";
 				name="Quad_2_2";
 			};
 			id=2338;
@@ -57883,7 +57885,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="0 = [this,300,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;";
+				init="call{veh = [this, 300, 480] execVM ""scripts\vehicle.sqf"";}";
 				textures="Black";
 			};
 			id=2434;
@@ -62749,7 +62751,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="0 = [this,300,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;";
+				init="call{veh = [this, 300, 480] execVM ""scripts\vehicle.sqf"";}";
 				name="MH_1";
 			};
 			id=2838;
@@ -62758,25 +62760,6 @@ class Mission
 			class CustomAttributes
 			{
 				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute1
 				{
 					property="ace_refuel_fuelCargo";
 					expression="if (_value != (if (isNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configFile >> 'CfgVehicles' >> typeOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this,_value] call ace_refuel_fnc_makeSource}";
@@ -62795,7 +62778,45 @@ class Mission
 						};
 					};
 				};
-				nAttributes=2;
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[""ToolKit""],[1]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_fastroping_equipFRIES";
+					expression="[_this] call ace_fastroping_fnc_equipFRIES";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=3;
 			};
 		};
 		class Item1130
@@ -62810,7 +62831,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="call{0 = [this,300,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;}";
+				init="call{veh = [this, 300, 480] execVM ""scripts\vehicle.sqf"";}";
 				reportOwnPosition=1;
 			};
 			id=2839;
@@ -63590,7 +63611,7 @@ class Mission
 			{
 				skill=0.60000002;
 				lock="UNLOCKED";
-				init="call{0 = [this,300,FALSE,QS_fnc_vSetup02] spawn QS_fnc_vMonitor;}";
+				init="call{veh = [this, 300, 480] execVM ""scripts\vehicle.sqf"";}";
 				name="OB_1";
 				textures="Black";
 			};

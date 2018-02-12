@@ -35,7 +35,7 @@ for [ {_i = 0}, {_i < count(paramsArray)}, {_i = _i + 1} ] do {
 //------------------- client executions
 
 ["InitializePlayer", [player]] call BIS_fnc_dynamicGroups; 						// Initializes the player/client side Dynamic Groups framework
-_null = [] execVM 'scripts\group_manager.sqf';									// group manager
+//_null = [] execVM 'scripts\group_manager.sqf';									// group manager
 _null = [] execVM "scripts\restrictions.sqf"; 									// gear restrictions and safezone
 _null = [] execVM "scripts\pilotCheck.sqf"; 									// pilots only
 _null = [] execVM "scripts\jump.sqf";											// jump action

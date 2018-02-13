@@ -127,6 +127,15 @@ player createDiaryRecord ["faq",
 "
 ]];
 
+player createDiaryRecord ["faq",
+[
+"Fahrzeuge",
+"
+<br /><font size='16'>F:</font> Wie kann ich Fahrzeuge reparieren/betanken/aufmunitionieren?
+<br /><font size='16'>A:</font> Fahrzeuge können über die bereitgestellten LKW´s repariert/betankt/aufmunitioniert werden. <br />
+"
+]];
+
 //-------------------------------------------------- Change Log
 
 player createDiaryRecord ["changelog",
@@ -146,38 +155,22 @@ player createDiaryRecord ["credits",
 "
 <br />Missions ersteller:<br /><br />
 
-		- <font size='16'>Rarek</font> - Ahoy World (ahoyworld.co.uk)<br />
-		- <font size='16'>Quiksilver</font><br />
 		- <font size='16'>Bundeswehr Armaclan (bw-armaclan.de)</font><br />
+		- Quiksilver<br /><br />
 		
 <br />Mitwirkende:<br /><br />
-		- Jester - Ahoy World (ahoyworld.co.uk)<br />
-		- Razgriz33 - Ahoy World (ahoyworld.co.uk)<br />
-		- Kamaradski - Ahoy World (ahoyworld.co.uk)<br />
-		- BACONMOP - Ahoy World (ahoyworld.co.uk)<br />
-		- chucky - All FPS (allfps.com.au)<br />
 		- Chaser - Bundeswehr Armaclan (bw-armaclan.de)<br />
-		- Seko - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
-		- Max - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
+		- Lexel  - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
+		- Max 	 - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
+		- Seko	 - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
+		- Sumsl  - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
+		
 		
 <br />Andere:<br /><br />
-		VAS<br />
-		- Kronzky<br />
-		- Sa-Matra<br />
-		- Dslyecxi<br /><br />
-		=BTC= Revive<br />
-		- Giallustio<br />
-		- Edited by Quiksilver<br/><br />
 		EOS<br />
 		- BangaBob<br /><br />
-		Squad Manager<br />
-		- aeroson<br /> <br />
 		TAW View Distance<br />
 		- Tonic<br /> <br />
-		aw_fnc<br />
-		- Alex Wise<br /><br />
-		SHK Taskmaster<br />
-		- Shuko<br /><br />
 		Fast rope<br />
 		- Zealot<br /><br />
 		Map and GPS Icons (Soldier Tracker)<br />

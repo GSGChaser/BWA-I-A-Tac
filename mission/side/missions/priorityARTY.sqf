@@ -156,7 +156,7 @@ _radius = 80;
 while { canMove priorityObj1 || canMove priorityObj2 } do {
 
 		_accepted = false;
-		_unit = objNull;
+		_unit objNull;
 		_targetPos = [0,0,0];
 		
 		while {!_accepted} do {

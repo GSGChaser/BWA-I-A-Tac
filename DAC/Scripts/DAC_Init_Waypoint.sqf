@@ -20,7 +20,7 @@ private [
 			"_sdv","_sdu","_sdl","_zoneQM"
 		];
 		
-			_DAC_WP_Typ = _this select 0;_wpConfig = [];_checkResol = 90;_tempList = [];_DAC_EnemyZone = objNull;_rx = 0,_ry = 0;_rsin = [];_rcos = [];
+			_DAC_WP_Typ = _this select 0;_wpConfig = [];_checkResol = 90;_tempList = [];_DAC_EnemyZone = objNull;_rx = 0;_ry = 0;_rsin = [];_rcos = [];
 			_DAC_Typ_Nr = ["S","V","T","A","C"];_MTemp = [];_string ="Null";_TempArray = [];_ScriptArray = [2,3,4,5];_DAC_WP_Basic = 0;_dist = 0;
 			_DAC_MColor = ["ColorBlue","ColorYellow","ColorRed","ColorGreen","ColorBlack"];_minit = 0;_m3 = "";_mm1 = "";_mm2 = "";_countairwp = 0;
 			_DAC_Typ_Name = ["Infantry","Unarmed vehicles","Armed vehicles","Helicopter","Camp"];_run = 1;_go = 0;_DAC_WP_Nr = 0;_m5 = "";_mm5 = "";

@@ -358,7 +358,7 @@ while {_run > 0} do
 						_go = 1;_i = 0;
 						while {_i < count _buildingX} do
 						{
-							_explo = "Sh_122_HE" createvehicle (position (_buildingX select _i));
+							_explo = "R_80mm_HE" createvehicle (position (_buildingX select _i));
 							(_buildingX select _i) setdamage 1;
 							sleep (0.1 + (random 3));
 							_i = _i + 1;
@@ -384,7 +384,7 @@ while {_run > 0} do
 						sleep (DAC_AI_Spawn select 3);
 						while {_i < count _buildingX} do
 						{
-							_explo = "Sh_122_HE" createvehicle (position (_buildingX select _i));
+							_explo = "R_80mm_HE" createvehicle (position (_buildingX select _i));
 							(_buildingX select _i) setdamage 1;
 							sleep (0.1 + (random 3));
 							_i = _i + 1;

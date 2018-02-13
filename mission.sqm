@@ -8,7 +8,7 @@ class EditorData
 	toggles=553;
 	class ItemIDProvider
 	{
-		nextID=2893;
+		nextID=2894;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14683.876,36.178406,16697.229};
-		dir[]={-0.46919286,-0.34432366,0.81332886};
-		up[]={-0.17208008,0.93882245,0.2982963};
-		aside[]={0.86628717,1.4482066e-007,0.49974188};
+		pos[]={14678.058,49.209919,16721.787};
+		dir[]={-0.61311197,-0.49596494,0.6149357};
+		up[]={-0.3501884,0.86833644,0.35122943};
+		aside[]={0.70816714,8.7136868e-008,0.70607024};
 	};
 };
 binarizationWanted=0;
@@ -17900,7 +17900,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14572.887,19.536285,16724.127};
-				angles[]={-0,0.7598989,0};
+				angles[]={0,0.7598989,0};
 			};
 			side="Empty";
 			flags=4;
@@ -17961,7 +17961,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14574.416,19.536285,16722.578};
-				angles[]={-0,0.7437197,0};
+				angles[]={0,0.7437197,0};
 			};
 			side="Empty";
 			flags=4;
@@ -20865,7 +20865,7 @@ class Mission
 			};
 			id=879;
 			type="B_supplyCrate_F";
-			atlOffset=-1.5258789e-005;
+			atlOffset=-5.3405762e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22489,7 +22489,7 @@ class Mission
 			};
 			id=1161;
 			type="Land_Bandage_F";
-			atlOffset=9.5367432e-005;
+			atlOffset=0.021999359;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -63541,7 +63541,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={30514.006,23.964523,241.95599};
-				angles[]={-0,5.358161,0};
+				angles[]={0,5.358161,0};
 			};
 			side="Empty";
 			flags=4;

@@ -14,7 +14,7 @@ Description:
 	Deprecated initialization file, still using until the below is correctly partitioned between server and client.
 ______________________________________________________*/
 
-waituntil {!isnil "bis_fnc_init"};
+//waituntil {!isnil "bis_fnc_init"};
 
 DAC_Basic_Value = 0;execVM "DAC\DAC_Config_Creator.sqf";
 

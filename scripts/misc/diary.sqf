@@ -160,9 +160,9 @@ player createDiaryRecord ["credits",
 		
 <br />Mitwirkende:<br /><br />
 		- Chaser - Bundeswehr Armaclan (bw-armaclan.de)<br />
-		- Lexel  - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
-		- Max 	 - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
-		- Seko	 - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
+		- Lexel  - Bundeswehr Armaclan (bw-armaclan.de)<br />
+		- Max 	 - Bundeswehr Armaclan (bw-armaclan.de)<br />
+		- Seko	 - Bundeswehr Armaclan (bw-armaclan.de)<br />
 		- Sumsl  - Bundeswehr Armaclan (bw-armaclan.de)<br /><br />
 		
 		
@@ -178,7 +178,7 @@ player createDiaryRecord ["credits",
 		Jump<br />
 		- ProGamer<br /><br />
 		Safe zone<br />
-		- Bake<br />
+		- Bake<br /><br />
 		DAC<br />
 		- Silola<br />
 "
